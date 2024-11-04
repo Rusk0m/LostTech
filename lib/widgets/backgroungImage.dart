@@ -9,7 +9,7 @@ class BackgroundImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      //margin: EdgeInsets.zero,
+      margin: EdgeInsets.zero,
       width: MediaQuery.of(context).size.width * 0.7,
       height: MediaQuery.of(context).size.height * 0.8,
       decoration: const BoxDecoration(
